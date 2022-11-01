@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Contact | Tim Geens</title>
+</head>
+<body bgcolor="grey" text="white" style="font-family:'Open Sans', sans-serif;">
+    <nav style="font-size: x-large; text-align: center;">
+            <a href="index.html">Homepagina</a> |
+            <a href="cv.html">Curriculum Vitae</a> |
+            <a href="ervaring.html">Ervaringen</a> |
+            <a href="hobby.html">Hobbies</a> |
+            <a href="contact.html">Contact</a>
+    </nav>
+    <br>
+    <br>
+    <center>
+        <h3>Ik ben te bereiken via mail:</h3>
+        <form action="https://tm-statweb.be/sendmail.php" method="post">
+            <div>
+                <input type="text" name="voornaam" id="voornaam" required placeholder="Voornaam">
+            </div>
+            <div>
+                <input type="text" name="achternaam" id="achternaam" required placeholder="Achternaam">
+            </div>
+            <div>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <div>
+                <input type="text" name="onderwerp" id="onderwerp" placeholder="Onderwerp">
+            </div>
+            <br>
+            <div>
+                <textarea name="bericht" id="bericht" cols="50" rows="10" required placeholder="Typ hier je bericht"></textarea>
+            </div>
+                <input type="hidden" name="studentemail" value="r0930358@student.thomasmore.be">
+            <div>
+                <input type="submit" value="Verzenden">
+            </div>
+        </form>
+    </center>
+    <br>
+    <br>
+    <footer style="text-align:center">
+        &copy; Tim Geens
+    </footer>
+</body>
+</html>
